@@ -19,7 +19,7 @@ const HomeScreen = (props) => {
             if (json.total_results) {
                 props.navigation.navigate('Results', { results: json.results, title: `Search: '${term}'` })
             } else {
-                Alert.alert('empty');
+                Alert.alert('Any result', 'We could not find any movie with that name');
             }
         } catch (error) {
             console.error(error);
