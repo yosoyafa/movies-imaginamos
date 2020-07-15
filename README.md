@@ -9,4 +9,4 @@ Main Screen | Movie Screen | Search Screen
 
 
 
-> **Note:** The is a test for Imaginamos.
+> **Note:** This is a test for Imaginamos.
